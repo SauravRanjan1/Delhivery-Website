@@ -1,0 +1,29 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.app {
+  height: 700px;
+  width: 150vh;
+}
+
+.map{
+  height : 100%;  
+  width: 100%;
+}
+
+.marker{
+  background-image: url('https://i.imgur.com/oz3r3Wq.png');
+  background-size: cover;
+  width : 22px;
+  height: 22px;
+  background-color: rgb(248, 252, 4);
+  border-radius: 11px;
+  border: solid 3px;
+}
+
+.marker-delivery{
+  background-color: rgb(28, 0, 128);
+  width : 22px;
+  height: 22px;
+}
